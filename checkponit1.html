@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is my personal web development portfolio page.</p>
+    <video width="320" height="240" controls>
+      <source src="video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a web development student passionate about building beautiful and functional websites.</p>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Graphic Design Basics</li>
+      <li>UI/UX Learning</li>
+    </ul>
+  </section>
+
+  <!-- WORK SECTION -->
+  <section id="work">
+    <h2>My Work</h2>
+    <p>Here are some sample projects I’ve worked on:</p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Landing Page</td>
+          <td>Simple responsive page</td>
+          <td><a href="#">View</a></td>
+        </tr>
+        <tr>
+          <td>Portfolio</td>
+          <td>This current project</td>
+          <td><a href="#home">View</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- RESUME SECTION -->
+  <section id="resume">
+    <h2>My Resume</h2>
+    <p>Download my resume below:</p>
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+    <audio controls>
+      <source src="audio1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
